@@ -24,7 +24,7 @@ import Card from "components/card/Card";
 import Menu from "components/menu/MainMenu";
 
 // Assets
-import { MdCheckCircle, MdCancel, MdOutlineError } from "react-icons/md";
+import { MdCheckCircle, MdCancel, MdOutlineSunset } from "react-icons/md";
 export default function ColumnsTable(props) {
   const { columnsData, tableData } = props;
 
@@ -65,7 +65,7 @@ export default function ColumnsTable(props) {
           fontSize='22px'
           fontWeight='700'
           lineHeight='100%'>
-          Complex Table
+          Model Directory
         </Text>
         <Menu />
       </Flex>
@@ -112,20 +112,20 @@ export default function ColumnsTable(props) {
                           h='24px'
                           me='5px'
                           color={
-                            cell.value === "Approved"
+                            cell.value === "Active"
                               ? "green.500"
-                              : cell.value === "Disable"
+                              : cell.value === "Development"
                               ? "red.500"
-                              : cell.value === "Error"
+                              : cell.value === "Sunset"
                               ? "orange.500"
                               : null
                           }
                           as={
-                            cell.value === "Approved"
+                            cell.value === "Active"
                               ? MdCheckCircle
-                              : cell.value === "Disable"
+                              : cell.value === "Development"
                               ? MdCancel
-                              : cell.value === "Error"
+                              : cell.value === "Sunset"
                               ? MdOutlineError
                               : null
                           }

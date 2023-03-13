@@ -1,26 +1,26 @@
 [
   {
-    "name":"Horizon UI PRO",
-    "status": "Approved",
-    "date": "18 Apr 2022",
-    "progress": 75.5  
+    "name":"ELO Model 1",
+    "status": "Sunset",
+    "creator": "zaustin",
+    "Accuracy": 57  
   },
   {
-    "name":"Horizon UI Free",
-    "status": "Disable",
-    "date": "18 Apr 2022",
-    "progress": 25.5  
+    "name":"Elo MOdel 2",
+    "status": "Active",
+    "creator": "zaustin",
+    "progress": 62  
   },
   {
-    "name":"Marketplace",
-    "status": "Error",
-    "date": "20 May 2021",
-    "progress": 90  
+    "name":"Madden Cluster",
+    "status": "Active",
+    "creator": "jnbrunettes",
+    "progress": 59 
   },
   {
-    "name":"Weekly Updates",
-    "status": "Approved",
-    "date": "12 Jul 2021",
-    "progress": 50.5  
+    "name":"All PBP",
+    "status": "Development",
+    "creator": "rats",
+    "progress": 65  
   }
 ]

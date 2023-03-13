@@ -140,13 +140,13 @@ export default function DevelopmentTable(props) {
                         })}
                       </Flex>
                     );
-                  } else if (cell.column.Header === "DATE") {
+                  } else if (cell.column.Header === "CREATOR") {
                     data = (
                       <Text color={textColor} fontSize='sm' fontWeight='700'>
                         {cell.value}
                       </Text>
                     );
-                  } else if (cell.column.Header === "PROGRESS") {
+                  } else if (cell.column.Header === "ACCURACY") {
                     data = (
                       <Flex align='center'>
                         <Text

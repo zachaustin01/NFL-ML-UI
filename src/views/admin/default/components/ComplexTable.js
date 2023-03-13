@@ -65,7 +65,7 @@ export default function ColumnsTable(props) {
           fontSize='22px'
           fontWeight='700'
           lineHeight='100%'>
-          Complex Table
+          Model Directory
         </Text>
         <Menu />
       </Flex>
@@ -112,20 +112,20 @@ export default function ColumnsTable(props) {
                           h='24px'
                           me='5px'
                           color={
-                            cell.value === "Approved"
+                            cell.value === "Active"
                               ? "green.500"
-                              : cell.value === "Disable"
+                              : cell.value === "Sunset"
                               ? "red.500"
-                              : cell.value === "Error"
+                              : cell.value === "Development"
                               ? "orange.500"
                               : null
                           }
                           as={
-                            cell.value === "Approved"
+                            cell.value === "Active"
                               ? MdCheckCircle
-                              : cell.value === "Disable"
+                              : cell.value === "Development"
                               ? MdCancel
-                              : cell.value === "Error"
+                              : cell.value === "Sunset"
                               ? MdOutlineError
                               : null
                           }
