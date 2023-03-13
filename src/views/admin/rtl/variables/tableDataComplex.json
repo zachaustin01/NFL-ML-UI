@@ -3,24 +3,24 @@
     "name":"Horizon UI PRO",
     "status": "Active",
     "date": "18 Apr 2022",
-    "progress": 75.5  
+    "accuracy": 75.5  
   },
   {
     "name":"Horizon UI Free",
     "status": "Development",
     "date": "18 Apr 2022",
-    "progress": 25.5  
+    "accuracy": 25.5  
   },
   {
     "name":"Marketplace",
     "status": "Sunset",
     "date": "20 May 2021",
-    "progress": 90  
+    "accuracy": 90  
   },
   {
     "name":"Weekly Updates",
     "status": "Active",
     "date": "12 Jul 2021",
-    "progress": 50.5  
+    "accuracy": 50.5  
   }
 ]

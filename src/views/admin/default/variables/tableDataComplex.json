@@ -3,24 +3,24 @@
     "name":"ELO Model 1",
     "status": "Sunset",
     "creator": "zaustin",
-    "Accuracy": 57  
+    "accuracy": 57  
   },
   {
-    "name":"Elo MOdel 2",
+    "name":"Elo Model 2",
     "status": "Active",
     "creator": "zaustin",
-    "progress": 62  
+    "accuracy": 62  
   },
   {
     "name":"Madden Cluster",
     "status": "Active",
     "creator": "jnbrunettes",
-    "progress": 59 
+    "accuracy": 59 
   },
   {
     "name":"All PBP",
     "status": "Development",
     "creator": "rats",
-    "progress": 65  
+    "accuracy": 65  
   }
 ]
